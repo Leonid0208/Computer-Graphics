@@ -1,0 +1,10 @@
+^C:\USERS\АЛЕКСЕЙ\DESKTOP\УЧЁБА\КОМПЬЮТЕРНАЯ ГРАФИКА\LAB2\PROJECT\CMAKEFILES\89CA8FF08C02FBF4A5C95F9A1DF4EA46\GENERATE.STAMP.RULE
+setlocal
+"C:\Users\Алексей\Desktop\Учёба\Компьютерная графика\Lab2\cmake-3.15.4-win64-x64\bin\cmake.exe" "-SC:/Users/Алексей/Desktop/Учёба/Компьютерная графика/Lab2/CMake_Lighting" "-BC:/Users/Алексей/Desktop/Учёба/Компьютерная графика/Lab2/project" --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file "C:/Users/Алексей/Desktop/Учёба/Компьютерная графика/Lab2/project/Lights_and_textures.sln"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\Алексей\Desktop\Учёба\Компьютерная графика\Lab2\CMake_Lighting\Light_and_textures\laba4.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Алексей\Desktop\Учёба\Компьютерная графика\Lab2\CMake_Lighting\Light_and_textures\readBMP.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\Алексей\Desktop\Учёба\Компьютерная графика\Lab2\CMake_Lighting\Light_and_textures\GL_movement.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Алексей\Desktop\Учёба\Компьютерная графика\Lab2\CMake_Lighting\Light_and_textures\readBMP.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Алексей\Desktop\Учёба\Компьютерная графика\Lab2\CMake_Lighting\CatsHead.bmp">
+      <Filter>Images for textures</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Алексей\Desktop\Учёба\Компьютерная графика\Lab2\CMake_Lighting\List.bmp">
+      <Filter>Images for textures</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Алексей\Desktop\Учёба\Компьютерная графика\Lab2\CMake_Lighting\CMakeLists.txt">
+      <Filter>Other Files</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{B42179AF-87E2-32F0-A1DE-91DED429AD8B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Images for textures">
+      <UniqueIdentifier>{706671CD-56A2-358B-8F9B-83C19507B48F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Other Files">
+      <UniqueIdentifier>{AE9A708F-B4F5-3988-8E3D-FA4030016D32}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{15B4CFFF-4AA2-3D7E-8265-16E80DE27B8C}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

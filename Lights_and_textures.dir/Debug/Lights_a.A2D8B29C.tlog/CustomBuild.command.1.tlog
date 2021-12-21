@@ -1,0 +1,30 @@
+^C:\USERS\АЛЕКСЕЙ\DESKTOP\УЧЁБА\КОМПЬЮТЕРНАЯ ГРАФИКА\LAB2\CMAKE_LIGHTING\CATSHEAD.BMP
+setlocal
+"C:\Users\Алексей\Desktop\Учёба\Компьютерная графика\Lab2\cmake-3.15.4-win64-x64\bin\cmake.exe" -E copy "C:/Users/Алексей/Desktop/Учёба/Компьютерная графика/Lab2/CMake_Lighting/CatsHead.bmp" "C:/Users/Алексей/Desktop/Учёба/Компьютерная графика/Lab2/project/CatsHead.bmp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\АЛЕКСЕЙ\DESKTOP\УЧЁБА\КОМПЬЮТЕРНАЯ ГРАФИКА\LAB2\CMAKE_LIGHTING\LIST.BMP
+setlocal
+"C:\Users\Алексей\Desktop\Учёба\Компьютерная графика\Lab2\cmake-3.15.4-win64-x64\bin\cmake.exe" -E copy "C:/Users/Алексей/Desktop/Учёба/Компьютерная графика/Lab2/CMake_Lighting/List.bmp" "C:/Users/Алексей/Desktop/Учёба/Компьютерная графика/Lab2/project/List.bmp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\АЛЕКСЕЙ\DESKTOP\УЧЁБА\КОМПЬЮТЕРНАЯ ГРАФИКА\LAB2\CMAKE_LIGHTING\CMAKELISTS.TXT
+setlocal
+"C:\Users\Алексей\Desktop\Учёба\Компьютерная графика\Lab2\cmake-3.15.4-win64-x64\bin\cmake.exe" "-SC:/Users/Алексей/Desktop/Учёба/Компьютерная графика/Lab2/CMake_Lighting" "-BC:/Users/Алексей/Desktop/Учёба/Компьютерная графика/Lab2/project" --check-stamp-file "C:/Users/Алексей/Desktop/Учёба/Компьютерная графика/Lab2/project/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

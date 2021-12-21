@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Алексей\Desktop\Учёба\Компьютерная графика\Lab2\CMake_Lighting\CMakeLists.txt">
+      <Filter>Other Files</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Other Files">
+      <UniqueIdentifier>{AE9A708F-B4F5-3988-8E3D-FA4030016D32}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

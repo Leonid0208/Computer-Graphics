@@ -1,0 +1,3 @@
+﻿  laba4.cpp
+C:\Users\Алексей\Desktop\Учёба\Компьютерная графика\Lab2\CMake_Lighting\Light_and_textures\GL_movement.h(99): warning C4715: MyPoint::Normalize_Self: значение возвращается не при всех путях выполнения
+  Lights_and_textures.vcxproj -> C:\Users\Алексей\Desktop\Учёба\Компьютерная графика\Lab2\project\Debug\Lights_and_textures.exe
